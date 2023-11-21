@@ -1,7 +1,7 @@
 <?php
-$url = 'http://127.0.0.1:8888/apiRestsecuriser1/produits';
-$username = 'roote';
-$password = 'roote';
+$url = 'http://127.0.0.1:8888/apiRestsecuriser1/testHTTPBasic.php';
+$username = 'utilisateur';
+$password = 'azerty';
 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

@@ -3,7 +3,7 @@
 function authenticate($username, $password) {
     // Vous devriez mettre en œuvre une logique de vérification des informations d'identification ici
     // Pour cet exemple, nous comparons avec des valeurs statiques
-    $validUsername = 'utilisateure';
+    $validUsername = 'utilisateur';
     $validPassword = 'azerty';
 
     return $username === $validUsername && $password === $validPassword;
